@@ -1,6 +1,6 @@
 # Web App Menggunakan React & ExpressJS
 
-Belajar libary React untuk fronend & ExpressJS untuk backend
+Belajar library React untuk frontend & ExpressJS untuk backend
 
 ## Tech Stack
 
@@ -26,27 +26,22 @@ git clone https://github.com/username/nama-repo.git
 cd nama-repo
 ```
 
-### 2. Jalankan Backend
+### 2. Install dependencies
 
 ```bash
-cd backend
-pnpm install
-node index.js
+cd frontend && pnpm install
+cd ../backend && pnpm install
+cd ..
 ```
 
-Server berjalan di `http://localhost:3001`
-
-### 3. Jalankan Frontend
+### 3. Jalankan keduanya sekaligus
 
 ```bash
-cd frontend
-pnpm install
 pnpm dev
 ```
 
-App berjalan di `http://localhost:5173`
-
-> Buka dua terminal agar frontend dan backend bisa jalan bersamaan.
+Frontend berjalan di `http://localhost:5173`  
+Backend berjalan di `http://localhost:3001`
 
 ## Environment Variables
 
